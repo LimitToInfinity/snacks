@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @user_food.User %>
+</p>
+
+<p>
+  <strong>Food:</strong>
+  <%= @user_food.Food %>
+</p>
+
+<%= link_to 'Edit', edit_user_food_path(@user_food) %> |
+<%= link_to 'Back', user_foods_path %>
