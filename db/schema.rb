@@ -29,7 +29,10 @@ ActiveRecord::Schema.define(version: 2019_06_28_193652) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name"
+    t.string "username"
+    t.string "fav1"
+    t.string "fav2"
+    t.string "fav3"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

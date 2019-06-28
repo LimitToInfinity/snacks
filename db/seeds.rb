@@ -10,16 +10,16 @@ User.destroy_all
 Food.destroy_all
 UserFood.destroy_all
 
-user1= User.create(name: "Tom")
-user2= User.create(name: "Julie")
-user3= User.create(name: "John")
-user4= User.create(name: "Rebecca")
-user5= User.create(name: "Mark")
-user6= User.create(name: "Dina")
-user7= User.create(name: "Kevin")
-user8= User.create(name: "Kat")
-user9= User.create(name: "Kyle")
-user10= User.create(name: "Christy")
+user1= User.create(username: "Tom", fav1: "Pizza", fav2: "Brownie", fav3: "Burger")
+user2= User.create(username: "Julie", fav1: "Fruit", fav2: "Burrito", fav3: "Ice Cream")
+user3= User.create(username: "John", fav1: "Pizza", fav2: "Ice Cream", fav3: "Hot Dog")
+user4= User.create(username: "Rebecca", fav1: "Pizza", fav2: "Burger" , fav3: "Chocolate")
+user5= User.create(username: "Mark", fav1: "Pizza", fav2: "Chocolate" , fav3: "Fries")
+user6= User.create(username: "Dina", fav1: "Hot Dog", fav2: "Brownie", fav3: "Ice Cream")
+user7= User.create(username: "Kevin", fav1: "Pizza", fav2: "Burger", fav3: "Fruit")
+user8= User.create(username: "Kat", fav1: "Pizza", fav2: "Fries", fav3: "Churros")
+user9= User.create(username: "Kyle", fav1: "Pizza", fav2: "Hot Dog", fav3: "Chocolate")
+user10= User.create(username: "Christy", fav1: "Churros", fav2: "Burrito", fav3: "Ice Cream")
 
 food1= Food.create(name: "Pizza", taste: "savory")
 food2= Food.create(name: "Burrito", taste: "savory")
